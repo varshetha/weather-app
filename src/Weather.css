@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff; /* Light blue background */
+}
+
+/* App Title */
+h1 {
+  color: #4a90e2;
+  margin-top: 20px;
+}
+
+/* Input Field */
+input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ab7; /* Darker blue on hover */
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Weather Info Container */
+.weather-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+/* Weather Info Text */
+.weather-container h2 {
+  margin-bottom: 10px;
+}
+
+.weather-container p {
+  margin: 5px 0;
+}
